@@ -1,0 +1,36 @@
+name: harbourhouse
+description: App for turf and event bookings at The Harbour House.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  dio: ^5.0.1
+  dotted_border: ^2.0.0+3
+  flutter:
+    sdk: flutter
+  flutter_otp_text_field: ^1.1.1
+  flutter_secure_storage: ^8.0.0
+  get: ^4.6.5
+  get_it: ^7.2.0
+  http: ^0.13.5
+  image_picker: ^0.8.6+3
+  intl: ^0.18.0
+  platform_device_id: ^1.0.1
+  table_calendar: ^3.0.9
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/img/
